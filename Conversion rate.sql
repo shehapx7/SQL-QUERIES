@@ -1,4 +1,4 @@
---  monthly trends for sessions from google search capaign "nonbrand" sessions and orders ?
+--  Conversion rate for sessions from google search capaign "nonbrand" sessions and orders ?
 
 SELECT 
     count(distinct w.website_session_id) as sessions, -- number of sessions
